@@ -12,3 +12,4 @@ include "modules/admin/edit_admin.php";
 include "inc/footer.php";
 ?>
 <script src="modules/admin/ajax.js"></script>
+<script src=""></script>
