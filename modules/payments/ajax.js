@@ -163,12 +163,7 @@ $(document).ready(function () {
 		// updateforpayments();
 		$("#staticBackdrop").modal('hide');
 		showpaymentRecords();
-		// Swal.fire({
-		// 				icon: "success",
-		// 				title: "Payment Updated",
-		// 				showConfirmButton: false,
-		// 				timer: 1500
-		// })
+		
 	});
 	function updatepayments() {
 		$.ajax({
@@ -176,9 +171,8 @@ $(document).ready(function () {
 			type: "POST",
 			data: $('#update_Payment_Form').serialize() + '&action=updatepayments',
 			success: function (response) {
-				// console.log(response)
 				data = JSON.parse(response);
-				// console.log(data);
+				
 				if (data.status != false) {
 					// Toast.fire({
 					// 	title: "Record Updated Successfully",

@@ -23,7 +23,7 @@
                     Select Month.
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" id="tablediv">
                 <label for="edit_history_type" class="form-label">Choose Year</label>
                 <select class="form-select" id="yearsSelect" name="yearsSelect" required>
                     <option value="*" selected>All</option>
